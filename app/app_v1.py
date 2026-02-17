@@ -2,7 +2,7 @@ import streamlit as st
 from pipeline.pipeline import MovieRecommendationPipeline
 from dotenv import load_dotenv
 
-st.set_page_config(page_title="Anime Recommnder",layout="wide")
+st.set_page_config(page_title="Movie Recommnder",layout="wide")
 
 load_dotenv()
 
